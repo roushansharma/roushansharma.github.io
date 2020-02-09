@@ -1518,6 +1518,22 @@ span#captcha {
     text-align: left;
     padding-left: 5%;
 }
+.header .menu-toggle { 
+    right: 0; 
+}
+.tit_h {
+    font: 2.1rem Space Grotesk Regular !important;
+    width: 100% !important;
+    line-height: 41px !important;
+}
+.more_btn{
+  display: none !important;
+}
+ .col-md-6.hv_text.mrg-l-5.wid-50{
+  width: 70% !important;
+ }
+
+
 
 
 }
