@@ -84,11 +84,11 @@ $headers .= 'From: <http://roushan.0fees.us/>' . "\r\n";
  $send_mail = mail($to,$subject,$message,$headers);
 
  if($send_mail){
-	 header('Location: thank-you.php');
-	// window.location.href = '';
+   header('Location: thank-you.php');
+  // window.location.href = '';
  }
  else{
-	 echo "Error!";
+   echo "Error!";
  }
 }
 
@@ -177,11 +177,11 @@ $c_headers .= 'From: <http://roushan.0fees.us>' . "\r\n";
  $c_send_mail = mail($c_to,$c_subject,$c_message,$c_headers);
 
  if($c_send_mail){
-	 header('Location: thank-you.php');
-	// window.location.href = '';
+   header('Location: thank-you.php');
+  // window.location.href = '';
  }
  else{
-	 echo "Error!";
+   echo "Error!";
  }
 }
 
@@ -270,8 +270,8 @@ $c_headers .= 'From: <http://roushan.0fees.us>' . "\r\n";
               <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="hire_ntn" style="margin-right: 0%;">Let's Talk</a></span>
          </p> -->
           <ul class="social_hrd_list">
-            <li><a href="https://www.linkedin.com/in/roushankumar55/" target="_blank" class="text-dark"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://github.com/roushansharma" target="_blank" class="text-dark"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/roushansharma" target="_blank" class="text-dark"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/roushankumar55" target="_blank" class="text-dark"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
         </div>
     </div>
@@ -1001,7 +1001,7 @@ $c_headers .= 'From: <http://roushan.0fees.us>' . "\r\n";
 
       </div>
       <div class="mod_pad"> 
-     	<form action="" method="post" enctype="multipart/form-data">
+      <form action="" method="post" enctype="multipart/form-data">
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="form-group">
@@ -1097,7 +1097,7 @@ $c_headers .= 'From: <http://roushan.0fees.us>' . "\r\n";
   <script src="static/js/custom.js"></script>
   
   <script>
-// 	jQuery(document).ready(function(){
+//  jQuery(document).ready(function(){
 //   jQuery(function() {
 //         jQuery(this).bind("contextmenu", function(event) {
 //             event.preventDefault();
